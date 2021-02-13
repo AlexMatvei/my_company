@@ -1,0 +1,580 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    width: 100%;
+    background: #000;
+    display: flex;
+}
+
+.header_logo{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 56px;
+    margin-left: 180px;
+}
+
+nav{
+    margin-top: 56px;
+    margin-left: 430px;
+}
+
+.topnav a{
+    color: white;
+    text-align: center;
+    padding: 12px 16px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.topnav a:hover{
+    border-bottom: 3px solid #fcac45;
+}
+
+.topnav .icon{
+    display: none;
+}
+
+.home-main{
+    width: 100%;
+    height: 700px;
+    background-color: #000000;
+}
+
+.home{
+    text-align: center;
+    padding-top: 225px;
+}
+
+.welcome-h1{
+    color: #999999;
+    font-family: "Open Sans";
+    font-size: 44px;
+    font-weight: 300;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: -2.2px;
+    }
+.welcome-MC{
+    color: #fcac45;
+    font-family: "Open Sans";
+    font-weight: 700;
+    letter-spacing: -2.2px;
+}
+
+.welcome-h2{
+    color: #999999;
+    font-family: "Open Sans";
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: -1px;
+    }
+
+.welcome-e-o-e{
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+.home .welcome-h2{
+    margin-top: 20px;
+}
+
+.about-main{
+    min-height: 600px;
+    background-color: #ffffff;
+}
+
+.about-main>.about-container{
+    display: flex;
+    padding: 100px 230px 100px 160px;
+}
+
+.about-main .about-img{
+    width: 506px;
+    height: 400px;
+}
+
+.about-main>.about-container .about-text{
+    width: 405px;
+    margin-left:  150px;
+    margin-top: 33px;   
+}
+
+.about-main>.about-container .about-text .about-us{
+    color: #222222;
+    font-family: "Open Sans";
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 37.3px;
+    text-transform: uppercase;
+}
+
+.about-main>.about-container .about-text .about-h{
+
+    font-family: "Open Sans";
+    font-weight: 700;
+    letter-spacing: -0.68px;
+}
+
+.about-main>.about-container .about-text .about-line{
+    width: 388px;
+    height: 4px;
+    background-color: #fcac45;
+    margin-top: 20px;
+}
+
+.about-main>.about-container .about-text .about-content{
+    margin-top: 30px;
+    color: #6c6c6c;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.72px;
+}
+
+.about-main>.about-container .about-text .about-list{
+    margin-top: 45px;
+}
+
+.about-main>.about-container .about-text .about-list-1{
+    color: #5a5a5a;
+    
+}
+
+.about-main>.about-container .about-text .about-list-1 .about-list-h{
+    font-family: "Open Sans - Semibold";
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.18px;
+}
+
+.about-main>.about-container .about-text .about-list .about-list-2{
+    letter-spacing: -0.16px;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: "Open Sans - Semibold";
+}
+
+.ourteam{
+    min-height: 726px;
+    background-color: black;
+}
+.ourteam-container{
+    text-align: center;
+    padding: 100px 180px 0 180px;
+}
+
+.ourteam-container .ourteam-top{
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.ourteam-container .ourteam-line{
+    width: 99px;
+    height: 5px;
+    background-color: #fcac45;
+    margin: 30px auto;
+}
+
+.ourteam .uorteam-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ourteam .uorteam-wrapper .ourteam-item{
+    margin-top: 35px;
+}
+
+.ourteam .uorteam-wrapper .ourteam-item .ourteam-round{
+    width: 128px;
+    height: 127px;
+    background-color: silver;
+    border-radius: 100%;
+    margin:0 auto;
+}
+
+.ourteam .uorteam-wrapper .ourteam-h{
+    margin-top: 20px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.ourteam .uorteam-wrapper .ourteam-h .ourteam-h2{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.ourteam .uorteam-wrapper .ourteam-descr{
+    width: 247px;
+    height: 59px;
+    margin-top: 35px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    }
+
+    .our-service{
+        min-height: 730px;
+        background-color: white;
+    }
+
+    .service-container{
+        text-align: center;
+        padding: 100px 180px 0 180px;
+    }
+
+    .service-container .service-main{
+        color: #222222;
+        font-family: "Open Sans";
+        font-size: 44px;
+        font-weight: 400;
+        line-height: 24px;
+        text-transform: uppercase;    
+    }
+
+    .service-container .service-line{
+        width: 99px;
+        height: 5px;
+        background-color: #fcac45;
+        margin: 0 auto;   
+        margin-top: 30px; 
+    }
+
+    .service-container .service-p{
+        color: #6c6c6c;
+        font-family: "Open Sans ";
+        font-size: 16px;
+        line-height: 24px;    
+        margin-top: 55px;
+    }
+
+    .our-service .service-wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .our-service .service-wrapper .service-item{
+        margin-top: 100px;
+    }
+
+    .our-service .service-wrapper .service-round{
+        width: 125px;
+        height: 125px;
+        border-radius: 100% ;
+        border: 3px solid #fcac45;
+        margin: 0 auto;
+    }
+
+    .our-service .service-wrapper .service-round .servie-img{
+        margin:35px auto;
+    }
+
+    .service-wrapper .service-item .service-h{
+        margin-top: 30px;
+        color: #222222;
+        font-family: "Open Sans";
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 24px;
+        text-transform: uppercase;    
+    }
+
+    .service-wrapper .service-item .service-descr{
+        margin-top: 20px;
+        color: #222222;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;    
+    }
+
+    .our-clients{
+        min-height: 520px;
+        background-color: black;
+    }
+
+    .our-clients .our-clients-container{
+        padding: 100px 180px 0 180px;
+        text-align: center;
+    }
+
+    .our-clients .our-clients-container .our-clients-line{
+        width: 99px;
+        height: 5px;
+        background-color: #fcac45;    
+        margin: 30px auto;
+    }
+
+    .our-clients .our-clients-container .our-clients-main{
+        color: #ffffff;
+        font-family: "Open Sans";
+        font-size: 44px;
+        font-weight: 300;
+        line-height: 24px;
+    }
+
+    .our-clients .our-clients-container .our-clients-main .cliets-m-decor{
+        font-weight: 600;
+    }
+
+    .our-clients .our-clients-wrapper{
+        margin-top: 115px;
+    }
+
+    .our-clients .our-clients-wrapper .clients-img{
+        margin-right: 20px;
+    }
+
+    .our-portfolio{
+        min-height: 1340px;
+        background-color: white;
+    }
+
+    .our-portfolio .portfolio-container{
+        padding: 100px 180px 0 180px;
+    }
+
+    .our-portfolio .portfolio-container .portfolio-h{
+        font-family: "Open Sans";
+        font-size: 44px;
+        font-weight: 300;
+        line-height: 24px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .our-portfolio .portfolio-container .portfolio-h .port-h-style{
+        font-weight: 400;
+    }
+
+    .our-portfolio .portfolio-container .portfolio-line{
+        width: 99px;
+        height: 5px;
+        background-color: #fcac45;
+        margin: 30px auto 55px;
+    }
+
+    .our-portfolio .portfolio-container .portfolio-text{
+        color: #6c6c6c;
+        font-family: "Open Sans";
+        font-size: 16px;
+        line-height: 24px;    
+    }
+
+    .our-portfolio .portfolio-container .portfolio-galery{
+        margin-top: 175px;
+        text-align: center;
+    }
+
+    .our-portfolio .portfolio-container .portfolio-galery .portfolio-img{
+        width: 263px;
+        height: 237px;
+    }
+
+    .testimonials{
+        min-height: 560px;
+        background-color:black;
+    }
+
+    .testimonials .testimonials-container{
+        padding: 100px 180px 0 180px;
+    }
+
+    .testimonials .testimonials-container .testimon-h{
+        color: #ffffff;
+        font-family: "Open Sans";
+        font-size: 44px;
+        font-weight: 400;
+        line-height: 24px;
+        text-transform: uppercase; 
+        text-align: center; 
+    }
+
+    .testimonials .testimonials-container .testimon-h .testimon-h-style{
+        font-weight: 300;
+    }
+
+    .testimonials .testimonials-container .testimonials-line{
+        width: 99px;
+        height: 5px;
+        background-color: #fcac45;
+        margin: 30px auto 55px;
+    }
+
+    .testimonials .testimonials-container .testimonials-text{
+        color: #e7e7e7;
+        font-family: "Open Sans - Semibold";
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        text-transform: uppercase;   
+        width: 930px;
+        margin: 0 105px 50px 105px;
+    }
+
+    .testimonials .testimonials-container .testimonials-footer{
+        color: #b2b2b2;
+        font-family: "Open Sans";
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .testimonials .testimonials-container .testimonials-footer .testimon-foot-style{
+        font-weight: 300;
+    }
+
+    .contact{
+        min-height: 830px;
+        background-color: white;
+    }
+
+    .contact .contact-container{
+        padding: 100px 180px 0 180px;
+    }
+
+    .contact .contact-container .contact-h{
+        color: #222222;
+        font-family: "Open Sans ";
+        font-size: 44px;
+        font-weight: 400;
+        line-height: 24px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .contact .contact-container .contact-line {
+        width: 99px;
+        height: 5px;
+        background-color: #fcac45;
+        margin: 30px auto 55px;    
+    }
+
+    .contact .contact-container .contact-text{
+        color: #6c6c6c;
+        font-family: "Open Sans";
+        font-size: 16px;
+        line-height: 24px;
+        width: 750px;    
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .contact .contact-wrap-main{
+        margin: 95px auto;
+        width: 750px;
+    }
+
+    .contact .contact-wrapper{
+        display: flex;
+        justify-content: space-between;
+        margin: 95px auto 55px;
+    }
+
+    .contact .contact-container .contact-wrap-h{
+        color: #636363;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 24px;
+        text-align: left;   
+    }
+
+    .contact .contact-wrapper input{
+        width: 360px;
+        height: 40px;
+        border: 1px solid rgba(0, 0, 0, 0.4);
+        background-color: #ffffff;
+    }
+   
+    .contact .contact-container .contact-textdown{
+        text-align: center;
+    }
+
+    .contact .contact-container .contact-textdown .contact-textarea-h{
+        color: #636363;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 24px; 
+        margin-left: -685px;
+
+    }
+
+    .contact .contact-container .contact-textdown textarea{
+        width: 751px;
+        height: 163px;
+        border: 1px solid rgba(0, 0, 0, 0.4);
+        background-color: #ffffff;
+    }
+
+    .contact .contact-container .contact-wrap-main button{
+        width: 165px;
+        height: 40px;
+        background-color: #fcac45;
+        margin: 35px 0 0 588px;
+    }
+
+    .contact .contact-container .contact-but-text{
+        color: #ffffff;
+        font-family: "Open Sans ";
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 24px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    footer {
+        min-height: 95px;
+        background-color: black;
+    }
+
+    footer .foot-container{
+        padding: 30px 180px 0 180px;
+    }
+
+    footer .foot-container .foot-galery{
+        text-align: center;
+    }
+
+    footer .foot-container .foot-galery .foot-img{
+        margin-right: 15px;
+    }
